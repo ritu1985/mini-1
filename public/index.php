@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ritu
- * Date: 10/9/18
- * Time: 6:41 PM
- */
-<?php
 function build_table($array){
     // start table
     $html = '<table>';
@@ -30,13 +23,15 @@ function build_table($array){
     $html .= '</table>';
     return $html;
 }
-
 /**
  * Created by PhpStorm.
- * User: kwilliams
- * Date: 10/1/18
- * Time: 9:23 PM
+ * User: ritu
+ * Date: 10/9/18
+ * Time: 6:41 PM
  */
+
+
+
 
 main::start("example.csv");
 
